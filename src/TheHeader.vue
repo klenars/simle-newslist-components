@@ -1,0 +1,15 @@
+<template>
+  <h1>This is title</h1>
+  <h2>{{ title }}</h2>
+  </template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      title: 'The Header from Data'
+    }
+  }
+}
+</script>
